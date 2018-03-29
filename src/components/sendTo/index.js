@@ -48,6 +48,7 @@ class SendTo extends React.Component {
               </span>
             </h2>
             <CopyToClipboard value={this.props.address} className={`${styles.address}`} copyClassName={styles.copy} />
+            <h3></h3>
           </div>
         </div>
         <div className={`
